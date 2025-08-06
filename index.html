@@ -3,65 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Salma Makhlouf</title>
+    <title>Hello I am Salma Makhlouf</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- Section Accueil -->
+
+    <!-- Section Hero -->
     <header class="hero">
         <div class="hero-content">
-            <h1>Salma Makhlouf</h1>
+            <img src="images/photo.jpg" alt="Salma Makhlouf" class="profile-pic">
+            <h1>Hello, je suis <span>Salma Makhlouf</span></h1>
             <h2>Data Scientist | IA Générative & NLP</h2>
-            <p>Transformer les données en solutions concrètes grâce à l'IA et l'IA générative.</p>
+            <p>Transformer les données en solutions concrètes grâce à l'IA.</p>
             <div class="buttons">
-                <a href="Salma_Makhlouf_CV.pdf" class="btn" target="_blank">📄 Télécharger mon CV</a>
-                <a href="https://linkedin.com/in/salma-makhlouf" class="btn" target="_blank">🔗 LinkedIn</a>
-                <a href="https://github.com/SalmaMakhlouf" class="btn" target="_blank">💻 GitHub</a>
+                <a href="Salma_Makhlouf_CV.pdf" class="btn">📄 Mon CV</a>
+                <a href="#projects" class="btn-outline">💻 Mes projets</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/salma-makhlouf" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/SalmaMakhlouf" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:salmamakhlouf7@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
     </header>
 
-    <!-- Section À propos -->
+    <!-- À propos -->
     <section class="about">
         <h2>À propos</h2>
-        <p>Je suis Data Scientist spécialisée en NLP, IA générative et modèles prédictifs avec 2 ans d'expérience dans la conception de solutions innovantes. J'aide les entreprises à transformer leurs besoins métiers en outils IA concrets, en optimisant les coûts et en accompagnant les équipes vers l'adoption de ces technologies.</p>
+        <p>Data Scientist spécialisée en NLP, IA générative et modèles prédictifs avec 2 ans d'expérience. J'aide les entreprises à transformer leurs besoins métiers en outils IA concrets, en optimisant les coûts et en accompagnant les équipes dans leur adoption.</p>
+        <div class="stats">
+            <div><h3>2+</h3><p>Années d'expérience</p></div>
+            <div><h3>10+</h3><p>Projets réalisés</p></div>
+            <div><h3>95%</h3><p>Taux de précision modèle</p></div>
+        </div>
     </section>
 
-    <!-- Section Compétences -->
+    <!-- Compétences -->
     <section class="skills">
         <h2>Compétences</h2>
         <div class="skills-grid">
-            <div><strong>Langages :</strong> Python, Java, SQL, R</div>
-            <div><strong>IA & ML :</strong> TensorFlow, PyTorch, Scikit-learn</div>
-            <div><strong>NLP :</strong> GPT-4, LangChain, Transformers</div>
-            <div><strong>MLOps & Cloud :</strong> Azure ML, Docker, Kubernetes</div>
-            <div><strong>Big Data :</strong> Spark, Hadoop</div>
-            <div><strong>BI :</strong> Power BI, Tableau</div>
+            <div>Python, Java, SQL, R</div>
+            <div>TensorFlow, PyTorch, Scikit-learn</div>
+            <div>GPT-4, LangChain, Transformers</div>
+            <div>Azure ML, Docker, Kubernetes</div>
+            <div>Spark, Hadoop</div>
+            <div>Power BI, Tableau</div>
         </div>
     </section>
 
-    <!-- Section Expériences -->
-    <section class="experience">
-        <h2>Expériences</h2>
-        <div class="exp-card">
-            <h3>Schneider Electric (2023–2024)</h3>
-            <p>POC Chatbot RAG – Réduction du temps de réponse de 30 %.</p>
+    <!-- Projets -->
+    <section id="projects" class="projects">
+        <h2>Projets</h2>
+        <div class="project-card">
+            <h3>Chatbot RAG - Schneider Electric</h3>
+            <p>Prototype de chatbot intelligent pour automatiser la recherche d'informations dans les dashboards. Réduction de 30% du temps de réponse.</p>
         </div>
-        <div class="exp-card">
-            <h3>Schneider Electric (2023)</h3>
-            <p>Modèle prédictif (91 % précision) – Réduction des coûts de 15 %.</p>
+        <div class="project-card">
+            <h3>Modèle prédictif de projets à risque</h3>
+            <p>Développement d'un modèle (précision 91 %) pour anticiper les annulations de projets et optimiser les ressources.</p>
         </div>
-        <div class="exp-card">
-            <h3>Axode (2022–2023)</h3>
-            <p>Détection de défauts – Précision améliorée de 20 %.</p>
-        </div>
-        <div class="exp-card">
-            <h3>STAR Assurance (2022)</h3>
-            <p>Automatisation extraction données – Gain de 35 % de temps.</p>
+        <div class="project-card">
+            <h3>Détection de défauts documentaires</h3>
+            <p>Algorithme d'IA pour analyser les pièces administratives et réduire de 40 % les erreurs humaines.</p>
         </div>
     </section>
 
-    <!-- Section Contact -->
+    <!-- Contact -->
     <section class="contact">
         <h2>Contact</h2>
         <p>Email : <a href="mailto:salmamakhlouf7@gmail.com">salmamakhlouf7@gmail.com</a></p>
@@ -72,5 +80,6 @@
     <footer>
         <p>© 2025 Salma Makhlouf | Portfolio GitHub Pages</p>
     </footer>
+
 </body>
 </html>
